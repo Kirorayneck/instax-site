@@ -1,0 +1,146 @@
+.footer
+  &-wrap
+    display: block
+    text-align: center
+    margin: 0 auto
+    margin-left: 26%
+    width: 600px
+    height: 80px
+    background: url('../img/footer/footer-wrap-07.png') no-repeat
+    background-position: top
+    background-size: contain
+    &__title
+      padding-top: 25px
+      padding-left: 30px
+      font-size: 26px
+      +neon
+      text-transform: uppercase
+      font-weight: 300
+  &-content
+    display: flex
+    justify-content: space-between
+    &__fix
+      font-family: Arial, Helvetica, sans-serif
+    &__contacts
+      margin-right: 150px
+    &__ask
+      font-size: 30px
+      +arctic
+      line-height: 40px
+      margin-left: 120px
+    &__tel
+      display: block
+      text-decoration: none
+      font-size: 28px
+      +mont
+      color: $text-color-1
+      text-align: right
+    &__time
+      display: block
+      font-size: 19px
+      +mont
+      color: $text-color-2
+      text-align: right
+    &__mail
+      display: block
+      text-decoration: none
+      font-size: 28px
+      +mont
+      color: $text-color-1
+      &-fix
+        &-1
+          color: $text-color-3
+        &-2
+          color: $text-color-2
+    &__link
+      display: block
+      text-decoration: none
+      font-size: 28px
+      +mont
+      color: $text-color-1
+
+@media (max-width: 1200px)
+  .footer
+    &-wrap
+      width: 600px
+      height: 80px
+      margin: 0 auto
+      &__title
+        padding-left: 10px
+        padding-top: 25px
+        font-size: 26px
+    &-content
+      &__contacts
+        margin-right: 70px
+      &__ask
+        font-size: 28px
+        line-height: 36px
+        margin-left: 80px
+      &__tel
+        font-size: 26px
+        text-align: right
+      &__time
+        font-size: 18px
+      &__mail
+        font-size: 26px
+      &__link
+        font-size: 26px
+
+@media (max-width: 768px)
+  .footer
+    &-wrap
+      width: 500px
+      height: 50px
+      &__title
+        padding-left: 0
+        padding-top: 10px
+        font-size: 22px
+    &-content
+      flex-direction: column
+      text-align: center
+      &__contacts
+        margin-right: 0px
+      &__ask
+        margin: 0 auto
+        font-size: 20px
+        line-height: 24px
+        margin-left: 0
+      &__tel
+        font-size: 18px
+        text-align: center
+      &__time
+        font-size: 14px
+        text-align: center
+      &__mail
+        font-size: 18px
+      &__link
+        font-size: 18px
+
+@media (max-width: 768px)
+  .footer
+    &-wrap
+      width: 300px
+      height: 50px
+      &__title
+        padding-top: 13px
+        font-size: 18px
+    &-content
+      flex-direction: column
+      text-align: center
+      &__contacts
+        margin-right: 0px
+      &__ask
+        margin: 0 auto
+        font-size: 16px
+        line-height: 20px
+      &__tel
+        font-size: 14px
+        text-align: center
+      &__time
+        font-size: 12px
+        text-align: center
+      &__mail
+        font-size: 14px
+      &__link
+        font-size: 14px
+        margin-bottom: 15px

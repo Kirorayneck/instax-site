@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ucznik 1303 Plus';
+    src: url('ucznik1303Plus.eot');
+    src: local('Łucznik 1303 Plus'), local('ucznik1303Plus'),
+        url('ucznik1303Plus.eot?#iefix') format('embedded-opentype'),
+        url('ucznik1303Plus.woff') format('woff'),
+        url('ucznik1303Plus.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

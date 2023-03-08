@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'mr_NeonAbsoluteSansG';
+    src: url('mr_NeonAbsoluteSansG.eot');
+    src: local('mr_NeonAbsoluteSansG'),
+        url('mr_NeonAbsoluteSansG.eot?#iefix') format('embedded-opentype'),
+        url('mr_NeonAbsoluteSansG.woff') format('woff'),
+        url('mr_NeonAbsoluteSansG.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

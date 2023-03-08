@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Mont ExtraLight DEMO';
+    src: url('Mont-ExtraLightDEMO.eot');
+    src: local('Mont ExtraLight DEMO'), local('Mont-ExtraLightDEMO'),
+        url('Mont-ExtraLightDEMO.eot?#iefix') format('embedded-opentype'),
+        url('Mont-ExtraLightDEMO.woff') format('woff'),
+        url('Mont-ExtraLightDEMO.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+

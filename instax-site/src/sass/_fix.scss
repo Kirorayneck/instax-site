@@ -1,0 +1,15 @@
+.price-title {
+  font-family: 'fk_arctic', sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+@mixin title-hover {
+  .price-title {
+    text-shadow: 2px 2px 0 #CC008E,
+      2px -2px 0 #CC008E,
+      -2px 2px 0 #CC008E,
+      -2px -2px 0 #CC008E;
+  }
+}

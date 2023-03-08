@@ -1,0 +1,191 @@
+.price
+  margin-top: 30px
+  &-wrap
+    display: block
+    text-align: center
+    margin: 0 auto
+    width: 600px
+    height: 80px
+    background: url('../img/price/price-fone.png') no-repeat
+    background-position: top
+    background-size: contain
+    &__title
+      padding-top: 25px
+      font-size: 26px
+      +neon
+      text-transform: uppercase
+      font-weight: 300
+  &-tab
+    display: flex
+    justify-content: center
+    &__item
+      &:hover
+        +title-hover
+  &-item
+    &__wrap1
+      display: block
+      text-align: center
+      margin: 0 auto
+      width: 255px
+      height: 50px
+      background: url('../img/price/start-wrap-02.png') no-repeat
+      background-position: top
+      background-size: 255px 50px
+    &__wrap2
+      display: block
+      text-align: center
+      margin: 0 auto
+      width: 255px
+      height: 50px
+      background: url('../img/price/base-wrap-02.png') no-repeat
+      background-position: top
+      background-size: 255px 50px
+    &__wrap3
+      display: block
+      text-align: center
+      margin: 0 auto
+      width: 255px
+      height: 50px
+      background: url('../img/price/rise-wrap-02.png') no-repeat
+      background-position: top
+      background-size: 255px 50px
+    &__wrap4
+      display: block
+      text-align: center
+      margin: 0 auto
+      width: 255px
+      height: 50px
+      background: url('../img/price/turbo-wrap-02.png') no-repeat
+      background-position: top
+      background-size: 255px 50px
+    &__list
+      width: 255px
+      margin: 0 auto
+      list-style-type: none
+      list-style-image: url('../img/price/list-03.png')
+      +mont
+      font-size: 18px
+      text-shadow: 4px 4px 10px grey
+      &-point
+        &-fix1
+          color: $text-color-3
+          text-shadow: 4px 4px 10px grey
+        &-fix2
+          color: $text-color-2
+          text-shadow: 4px 4px 10px grey
+    &__button
+      display: block
+      text-align: center
+      margin: 0 auto
+      width: 255px
+      height: 70px
+      background: url('../img/price/button-fone-05.png') no-repeat
+      background-position: top right
+      background-size: 220px 40px
+  &-button
+    width: 275px
+    text-align: left
+    background-color: transparent
+    background-repeat: no-repeat
+    border: none
+    cursor:pointer
+    overflow: hidden
+    outline: none
+    padding: 0
+    &:hover
+      +title-hover
+      .price-button__top
+        color: $text-color-3
+      .price-item__list
+        list-style-image: url('../img/price/list-hover-03.png')
+    &__top
+      display: block
+      +arctic
+      font-size: 30px
+      color: $price-color
+      &:hover
+        
+    &__bottom
+      display: block
+      +mont
+      font-size: 26px
+  &-title
+    &__fix
+      &-1
+        padding-top: 15px
+        padding-left: 18px
+      &-2
+        padding-top: 15px
+        padding-left: 35px
+      &-3
+        padding-top: 15px
+      &-4
+        padding-top: 15px
+
+@media (max-width: 1200px)
+  .price
+    &-wrap
+      width: 700px
+      &__title
+        font-size: 26px
+    &-tab
+      flex-wrap: wrap
+      &__item
+        margin: 10px auto
+
+@media (max-width: 768px)
+  .price
+    &-wrap
+      width: 500px
+      height: 50px
+      &__title
+        padding-top: 18px
+        font-size: 16px
+    &-tab
+      flex-wrap: wrap
+      &__item
+        margin: 10px auto
+        
+
+@media (max-width: 572px)
+  .price
+    &-wrap
+      width: 300px
+      height: 50px
+      &__title
+        padding-top: 18px
+        font-size: 14px
+    &-tab
+      flex-wrap: wrap
+      &__item
+        margin: 10px auto
+    &-title
+      font-size: 14px
+      &__fix-4
+        padding-top: 18px
+    &-item
+      &__wrap3
+        width: 300px
+      &__list
+        text-align: center
+        font-size: 12px
+        list-style-position: inside
+        padding: 0
+      &__button
+        width: 150px
+        height: 50px
+    &-button
+      width: 300px
+      &__top
+        font-size: 20px
+      &__bottom
+        padding-top: 10px
+        font-size: 14px
+
+        
+
+
+
+  
+
+               

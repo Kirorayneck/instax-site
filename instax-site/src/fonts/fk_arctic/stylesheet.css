@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'FK Arctic.kz';
+    src: url('FKArctickz.eot');
+    src: local('FK Arctic.kz'), local('FKArctickz'),
+        url('FKArctickz.eot?#iefix') format('embedded-opentype'),
+        url('FKArctickz.woff') format('woff'),
+        url('FKArctickz.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

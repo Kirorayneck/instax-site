@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'lucznic';
+  src: url('../fonts/lucznic/ucznik1303Plus.eot');
+  src: url('../fonts/lucznic/ucznik1303Plus.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lucznic/ucznik1303Plus.woff') format('woff'),
+    url('../fonts/lucznic/ucznik1303Plus.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'cheque';
+  src: url('../fonts/cheque/Cheque-Regular.eot');
+  src: url('../fonts/cheque/Cheque-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/cheque/Cheque-Regular.woff') format('woff'),
+    url('../fonts/cheque/Cheque-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fk_arctic';
+  src: url('../fonts/fk_arctic/FKArctickz.eot');
+  src: url('../fonts/fk_arctic/FKArctickz.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/fk_arctic/FKArctickz.woff') format('woff'),
+    url('../fonts/fk_arctic/FKArctickz.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'lobster';
+  src: url('../fonts/lobster/Lobster.eot');
+  src: url('../fonts/lobster/Lobster.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/lobster/Lobster.woff') format('woff'),
+    url('../fonts/lobster/Lobster.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mont';
+  src: url('../fonts/mont/Mont-ExtraLightDEMO.eot');
+  src: url('../fonts/mont/Mont-ExtraLightDEMO.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/mont/Mont-ExtraLightDEMO.woff') format('woff'),
+    url('../fonts/mont/Mont-ExtraLightDEMO.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'neon';
+  src: url('../fonts/neon/mr_NeonAbsoluteSansG.eot');
+  src: url('../fonts/neon/mr_NeonAbsoluteSansG.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/neon/mr_NeonAbsoluteSansG.woff') format('woff'),
+    url('../fonts/neon/mr_NeonAbsoluteSansG.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'courier';
+  src: url('../fonts/courier/CourierNew.eot');
+  src: url('../fonts/courier/CourierNew.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/courier/CourierNew.woff') format('woff'),
+    url('../fonts/courier/CourierNew.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@mixin lucz {
+  font-family: 'lucznic', sans-serif;
+}
+@mixin cheq {
+  font-family: 'cheque', sans-serif;
+}
+@mixin arctic {
+  font-family: 'fk_arctic', sans-serif;
+}
+@mixin lobs {
+  font-family: 'lobster', sans-serif;
+}
+@mixin mont {
+  font-family: 'mont', sans-serif;
+}
+@mixin neon {
+  font-family: 'neon', sans-serif;
+}
+@mixin cour {
+  font-family: 'courier', sans-serif;
+}

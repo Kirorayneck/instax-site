@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Cheque';
+    src: url('Cheque-Regular.eot');
+    src: local('Cheque Regular'), local('Cheque-Regular'),
+        url('Cheque-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Cheque-Regular.woff') format('woff'),
+        url('Cheque-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

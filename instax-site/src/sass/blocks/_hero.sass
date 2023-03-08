@@ -1,0 +1,108 @@
+.hero
+  padding-bottom: 40px
+  &-wrap
+    display: block
+    text-align: center
+    margin: 0 auto
+    width: 1000px
+    height: 80px
+    background: url('../img/hero/title-fone.png') no-repeat
+    background-position: top
+    background-size: contain
+    &__title
+      display: block
+      padding-top: 25px
+      font-size: 26px
+      font-weight: 400
+      +neon
+      &-big
+        text-transform: uppercase
+  &-description
+    display: flex
+    flex-direction: column
+    text-align: center
+    margin: 0 auto
+    width: 600px
+    &__text
+      display: block
+      margin-top: 10px
+      +lucz
+      font-size: 22px
+      text-shadow: 4px 4px 10px grey
+      &-fix
+        color: $text-color-3
+      &-main
+        font-size: 22px
+        +cour
+        font-weight: 700
+        text-shadow: 4px 4px 10px grey
+        &-fix
+          color: $text-color-3
+  &-image
+    width: 600px
+    margin: 5px auto
+    &__pic
+      width: 100%
+      height: auto
+/* End hero main style */
+
+@media (max-width: 1200px)
+  .hero
+    &-wrap
+      width: 700px
+      &__title
+        padding-top: 20px
+        font-size: 28px
+    &-description
+      width: 500px
+      &__text
+        margin-top: 15px
+        font-size: 20px
+        &-main
+          font-size: 20px
+    &-image
+      width: 400px
+      margin: 15px auto
+/* End hero 1200 style */
+
+@media (max-width: 768px)
+  .hero
+    &-wrap
+      width: 500px
+      height: 50px
+      &__title
+        padding-top: 15px
+        font-size: 22px
+    &-description
+      width: 400px
+      &__text
+        margin-top: 10px
+        font-size: 16px
+        &-main
+          font-size: 16px
+    &-image
+      width: 300px
+      margin: 10px auto
+
+
+@media (max-width: 578px)
+  .hero
+    padding-bottom: 15px
+    &-wrap
+      width: 300px
+      height: 50px
+      &__title
+        padding-top: 13px
+        font-size: 16px
+    &-description
+      width: 300px
+      &__text
+        margin-top: 5px
+        font-size: 12px
+        &-main
+          font-size: 12px
+    &-image
+      width: 300px
+      margin: 5px 0
+      margin-left: 15px
+
